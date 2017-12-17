@@ -72,7 +72,6 @@ public class LoginFragment extends Fragment {
         view.findViewById(R.id.login).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onLoginCicked(true);
                 if (isValid()) {
                     onLoginCicked(true);
                 } else {
